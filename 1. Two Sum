@@ -1,0 +1,15 @@
+Two Sum
+
+Solution: Py
+
+
+class Solution:
+    @staticmethod
+    def twoSum(nums, target):
+        seen = {}
+        for i in range(len(nums)):
+            diff = target - nums[i]
+            if diff in seen:
+                return [seen[diff], i]
+            seen[nums[i]] = i
+        raise ValueError("No two sum solution")
