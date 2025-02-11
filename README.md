@@ -1,3 +1,3 @@
 # Leet Code
 
-the solution are in python 
+The solution are in python 
