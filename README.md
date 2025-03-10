@@ -1,4 +1,4 @@
 # Leet Code
 
-The solution are in python
-All solution are latest and updated ones
+1. The solution are in python
+2. All solution are latest and updated    ones
